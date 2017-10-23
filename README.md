@@ -5,7 +5,7 @@ Prequisites:
 
 - Apache webserver 2.2 or 2.4 (2.2.29 or later).
 
-- PHP 5 (5.4.33 or later), Not tested on PHP 7 yet.
+- PHP 5 (5.4.33 or later - better use 5.6) - probably runs on PHP 7 as well, but this is not tested yet.
 
 Copy all the files and directories to the root directory of your website.
 
