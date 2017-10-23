@@ -2,8 +2,10 @@
 Currency convertor (demo)
 
 Prequisites:
-Apache webserver 2.2 or 2.4,
-PHP 5.4, 5.5 or 5.6 (Note that it hasn't been tested on PHP 7 yet)
+
+- Apache webserver 2.2 or 2.4 (2.2.29 or later).
+
+- PHP 5 (5.4.33 or later), Not tested on PHP 7 yet.
 
 Copy all the files and directories to the root directory of your website.
 
