@@ -36,6 +36,8 @@ abstract class ConvertViewAbstract
     {
         echo "<!DOCTYPE html>\n";
         echo '<html><head><meta charset="UTF-8" /><title>'.$pageTitle."</title>\n";
+        echo '<meta name="format-detection" content="telephone=no" />';
+        echo '<meta name="viewport" content="initial-scale=1.0, width=device-width" />';
         if (!empty($this->cssPaths)) {
             foreach ($this->cssPaths as $path) {
                 echo '<link rel="stylesheet" type="text/css" href="'.$path.'" />'."\n";
